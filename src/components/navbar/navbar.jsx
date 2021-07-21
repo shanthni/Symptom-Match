@@ -38,7 +38,6 @@ class NavBar extends React.Component {
                 </div>
                 <Nav className="mr-auto">
                     <Divider light orientation="vertical" flexItem /> {/* this won't appear for some reason */}
-                    {/* can put stuff here (next to EthicalAnswers) */}
                 </Nav>
 
                 <Link to="/profile" className= 'navbarProfileButton'>
