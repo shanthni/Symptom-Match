@@ -1,0 +1,89 @@
+.aboutPageCSS{
+    background-color: #C7FFFF;
+}
+
+.contributor{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.contributorsDiv{
+    text-align: right;
+    margin-right: 180px;
+    margin-top: 50px;
+}
+
+.contributorsHeader{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.descriptionContents{
+    margin-top: 40px;
+}
+
+.descriptionParagraph{
+    font-size: 40px;
+    font-weight: 300;
+    text-indent: 50px;
+    margin-left: 45px;
+}
+
+.doctorsPhoto{
+    height: 800px;
+
+}
+.doctorsPhotoDiv{
+    margin-top: 100px;
+}
+
+.headerContents{
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.headerLogo{
+    width: 700px;
+    margin-top: -20px;
+}
+
+.headerText{
+    font-size: 50px;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+
+.headerQuestionMark{
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.leftColumnConstraint{
+    align-items: left;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.rightColumnConstraint{
+    align-items: center;
+}
+
+
+/* GENERAL STYLING BELOW */
+
+.standardColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.standardRow {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}

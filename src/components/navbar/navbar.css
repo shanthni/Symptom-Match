@@ -1,0 +1,28 @@
+.navbarCSS{
+
+}
+
+.navbarHomeLettersLogo{
+    width: 100px;
+}
+
+.navbarHomeWordLogo{
+    width: 350px;
+    padding-top: 9px;
+}
+
+.navbarOptionLinks{
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    color: navy;
+}
+
+.navbarOptions{
+    margin-left: 200px;
+}
+
+.navbarProfileButton{
+    margin-right: 20px;
+    font-size: 40px;
+}
