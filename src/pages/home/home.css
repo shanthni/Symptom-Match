@@ -1,0 +1,136 @@
+.homeCSS{
+
+}
+
+.diagnoseSuggestionArea{
+    margin-top: 225px;
+}
+
+.diagnoseSuggestionButton{
+    width: 300px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.diagnoseSuggestionHeader{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.homepageWordLogo{
+    width: 850px;
+    align-self: center;
+    /* margin-right: 340px; */
+}
+
+.homepageWelcomeLeadingText{
+    margin-top: 75px;
+    margin-right: 720px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.homepageWelcomeTrailingText{
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 325px;
+}
+
+.ratingDescription{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.rightColumnConstraint{
+    align-content: center;
+}
+
+.starRatingImage{
+    width: 900px;
+    margin-top: 100px;
+}
+
+.userReviewsSection{
+    margin-left: 125px;
+    margin-right: 175px;
+}
+
+.userReviewsSectionBody{
+    font-weight: 300;
+    font-size: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+
+.userReviewsSectionCreditName{
+    align-content: right;
+    text-align: right;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.userReviewsSectionCreditPhoto{
+    width: 150px;
+    padding-left: 90px;
+    align-self: right;
+
+}
+
+.userReviewsSectionCreditSchool{
+    align-content: right;
+    text-align: right;
+}
+
+.userReviewsSectionHeader{
+    margin-top: 100px;
+    margin-right: 185px;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: left;
+}
+
+.writeReviewArea{
+    margin-top: 75px;
+}
+
+.writeReviewButton{
+    width: 300px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.writeReviewHeader{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* GENERAL STYLING BELOW */
+
+.standardColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.standardRow {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.verticalSpacer{
+    margin-top: 50px;
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+    align-self: stretch;
+    /* The line does not show up. */
+}
