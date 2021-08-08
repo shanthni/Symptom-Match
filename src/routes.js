@@ -9,6 +9,9 @@ import diagnosePage from "./pages/diagnose/diagnose";
 import contactPage from "./pages/contact/contact";
 import profilePage from "./pages/profile/profile";
 
+import diagnoseResultsPage from "./pages/diagnoseResults/diagnoseResults";
+
+import forgotPasswordPage from "./pages/forgotPassword/forgotPassword";
 
 import { Route } from "react-router-dom";
 
@@ -24,6 +27,8 @@ const BaseRouter = () => (
         <Route exact path="/diagnose" component={diagnosePage}/>
         <Route exact path="/contact" component={contactPage}/>
         <Route exact path="/profile" component={profilePage}/>
+        <Route exact path="/diagnoseResults" component={diagnoseResultsPage}/>
+        <Route exact path="/forgotPassword" component={forgotPasswordPage}/>
 
     </div>
 )

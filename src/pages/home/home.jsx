@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css"
 
+import { Link } from "react-router-dom";
 import { Container, Button } from "react-bootstrap"
 
 import word_logo from '../../components/logos/word_logo.png';
@@ -66,7 +67,7 @@ function homePage (props) {
                             <div className= 'rightColumnConstraint'>
                                 <img src= {star_rating} alt= "Sympmatch_Rating_Image" className= 'starRatingImage' />
                                 <div className= 'ratingDescription'>
-                                    Recommended by 8 out of every 10 doctors
+                                    Recommended by 9 out of every 10 doctors
                                 </div>
                             </div>
 
@@ -74,7 +75,9 @@ function homePage (props) {
                                 <div className= 'diagnoseSuggestionHeader'>
                                     Think you’re coming down with something?
                                 </div>
-                            <Button variant="primary" type="submit" className="diagnoseSuggestionButton" block>Start a self-diagnosis</Button>
+                                <Link to="/diagnose">
+                                    <Button variant="primary" type="submit" className="diagnoseSuggestionButton" block>Start a self-diagnosis</Button>
+                                </Link>
                             </div>
 
                             <div className= 'writeReviewArea'>
