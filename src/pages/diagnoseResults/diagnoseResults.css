@@ -1,9 +1,7 @@
 .bigResultHeader{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 700;
-    text-align: left;
-    margin-top: 150px;
-    margin-left: 75px;
+    margin-top: 100px;
     text-decoration: underline;
 }
 
@@ -29,7 +27,9 @@
 
 .firstLikelihood{
     color: #5797D1;
-    
+    font-size: 150px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .palleteImage{

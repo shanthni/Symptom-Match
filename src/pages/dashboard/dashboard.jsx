@@ -1,7 +1,7 @@
 import React from "react";
 import "./dashboard.css"
 
-import { Container, Form, Button, Card } from "react-bootstrap"
+import { Container, Button } from "react-bootstrap"
 import { Link } from "react-router-dom";
 
 import orDivider from '../../components/assets/or_divider.jpg';
@@ -11,9 +11,9 @@ import discard from '../../components/assets/discard_button.png';
 
 const dashboardPage = () => {
 
-    var diagnosesList = ["Tuberculosis – 45% Probability", "Measles – 31% Probability"];
+    var diagnosesList = ["Tuberculosis", "Measles"];
 
-    diagnosesList = ["Tuberculosis – 45% Probability", "Measles – 31% Probability", "Common Cold - 45%"];
+    diagnosesList = ["Tuberculosis", "Measles", "Common Cold"];
 
     return(
         <div className= "dashboardCSS">

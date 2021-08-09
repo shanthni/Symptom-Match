@@ -1,10 +1,8 @@
 import React from "react";
 import "./forgotPassword.css"
 
-import { Container, Form, Button, Card, FormControl } from "react-bootstrap"
+import { Container, Form, Button, FormControl } from "react-bootstrap"
 import { Link } from "react-router-dom";
-
-import doctorsImage from '../../components/assets/doctors.png';
 
 class forgotPasswordPage extends React.Component {
 

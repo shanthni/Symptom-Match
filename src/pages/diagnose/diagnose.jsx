@@ -16,7 +16,7 @@ const diagnosePage = () => {
     const selectedSymptoms = [];
     selectedSymptoms.sort();
 
-    var selectedSymptomCount = 0;
+    // var selectedSymptomCount = 0;
 
     return(
         <div className= "diagnoseCSS">
