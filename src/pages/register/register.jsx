@@ -43,7 +43,7 @@ const registerPage = () => {
                                             <Form.Check type="checkbox" label="I have read and agree to the Terms and Conditions" />
                                         </Form.Group>
                                     </Form>
-                                        <Link to="/profile">
+                                        <Link to="/dashboard">
                                             <Button variant="success" type="submit" className="registerButton" block>Register</Button>
                                         </Link>
 

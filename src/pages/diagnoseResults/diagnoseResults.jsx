@@ -4,22 +4,63 @@ import "./diagnoseResults.css"
 import { Link } from "react-router-dom";
 import { Container, Button } from "react-bootstrap"
 
+import pie from '../../components/assets/pie_chart_1.png';
+import colorPallete from '../../components/assets/diagnosisColors.jpg';
 
-function homePage (props) {
+function diagnoseResults (props) {
+
+    var results = ["Common Cold (45%)\n", "Influenza (35%)", "Fever (20%)"];
+    results = ["Heat Rash (43%)", "Dermatitis (38%)", "Measles (19%)"];
+
     return(
         <div className="homeCSS">
             <Container fluid>
-                <center>
-                    <div className='standardRow'>
-                        <div className='standardColumn'>
-                            
+                <div className= "standardRow">
+                    <div className= "standardColumn">
+                        <div className= "bigResultHeader">
+                            Results of your Diagnosis
+                        </div>
+                        <span>
+                            <img src= {pie} alt= "pie_chart" className= 'piechartImage' />
+                        </span>
+                        
+                    </div>
+                    <div className= "colorColumn">
+                        <img src= {colorPallete} alt= "chart_colors" className= 'palleteImage' />
+                    </div>
+                    <div className= "standardColumn">
+                        <div className= "resultsContainer">
+                            <div className= "firstLikelihood">
+                                { results[0] }
+                            </div>
+                            <div className= "secondLikelihood">
+                                { results[1] }
+                            </div>
+                            <div className= "thirdLikelihood">
+                                { results[2] }
+                            </div>
+                        </div>
+                        <span>
+                            <Link to="/dashboard">
+                                <Button variant="primary" type="submit" className="diagnosisOptionButtons" block>Proceed to Dashboard</Button>
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to="/diagnose">
+                                <Button variant="primary" type="submit" className="diagnosisOptionButtons" block>Start another diagnosis</Button>
+                            </Link>
+                        </span>
+                        <div>
+                            <Link to="/diagnose">
+                                <Button variant="danger" type="submit" className="diagnosisLogoutButton" block>Finish & Log Out</Button>
+                            </Link>
                         </div>
                     </div>
-                </center>
+                </div>
             </Container>
         </div>
     )
 }
 
 
-export default homePage;
+export default diagnoseResults;

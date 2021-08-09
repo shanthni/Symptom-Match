@@ -25,7 +25,7 @@ class forgotPasswordPage extends React.Component {
                                 <FormControl autoFocus type="text" placeholder="john.doe@rpi.edu" />
                             </Form.Group>
                         </Form>
-                        <Link to="/login">
+                        <Link to="/forgotPasswordResult">
                             <Button variant="success" type="submit" className="submitButton" block>Submit</Button>
                         </Link>
                         <Link to="/login">

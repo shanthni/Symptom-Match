@@ -1,22 +1,28 @@
-.settingsPageCSS {
-    background-color: #ecf0f5;
-    height: 100vh;
-    width: 100vw;
+.settingsMenuButtons{
+    font-size: 30px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 177vh;
 }
 
-.leftSideBar, .content, .rightBar {
-    margin-top: 2.5vh;
-    margin-left: auto;
-    margin-right: auto;
+.settingsLogoutButton{
+    font-size: 30px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 177vh;
 }
 
-.leftSideBarButton {
-    border-color: #d7d9dc;
-    border-style: solid;
-    border-width: 0.125em;
-    height: 100vh;
+.settingsPlaceholder{
+    font-size: 50px;
+    font-weight: 500;
+    align-content: right;
+    margin-top: 100px;
+    text-align: center;
 }
 
-.leftSideBarButton {
-    height: 100vh;
+.returnButton{
+    width: 300px;
+    margin-top: 100px;
+    font-size: 25px;
+    align-items: center;
 }

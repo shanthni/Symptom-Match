@@ -88,7 +88,9 @@ function homePage (props) {
                                 <div className= 'writeReviewHeader'>
                                     Got anything we should know about?
                                 </div>
-                            <Button variant="primary" type="submit" className="writeReviewButton" block>Write a review</Button>
+                                <Link to="/settings">
+                                    <Button variant="primary" type="submit" className="writeReviewButton" block>Write a review</Button>
+                                </Link>
                             </div>
                         </div>
                     </div>
