@@ -59,7 +59,6 @@ function homePage (props) {
                                     <img src= {kaleb_bowlin_image} alt= "draymond_smith_image" className='profileImage' />
                                 </div>
 
-
                                 <div className= 'userReviewsSectionCreditName'>
                                     - Kaleb Bowlin
                                 </div>
