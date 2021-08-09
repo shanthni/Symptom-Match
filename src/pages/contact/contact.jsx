@@ -2,7 +2,7 @@ import React from "react";
 import "./contact.css"
 
 import { Link } from "react-router-dom";
-import { Container, Button } from "react-bootstrap"
+import { Container } from "react-bootstrap"
 
 import git_logo from '../../components/assets/git_logo.png';
 import mail_logo from '../../components/assets/mail_logo.png';

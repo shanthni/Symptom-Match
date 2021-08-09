@@ -31,7 +31,7 @@ class loginPage extends React.Component {
                                                 <Form.Control type="Password" placeholder="••••••••••••••••" />
                                             </Form.Group>   
                                         </Form>
-                                        <Link to="/profile">
+                                        <Link to="/dashboard">
                                             <Button variant="success" type="submit" className="loginButton" block>Login</Button>
                                         </Link>
                                     </center>

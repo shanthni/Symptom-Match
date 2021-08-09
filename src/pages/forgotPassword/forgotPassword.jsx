@@ -1,10 +1,8 @@
 import React from "react";
 import "./forgotPassword.css"
 
-import { Container, Form, Button, Card, FormControl } from "react-bootstrap"
+import { Container, Form, Button, FormControl } from "react-bootstrap"
 import { Link } from "react-router-dom";
-
-import doctorsImage from '../../components/assets/doctors.png';
 
 class forgotPasswordPage extends React.Component {
 
@@ -25,7 +23,7 @@ class forgotPasswordPage extends React.Component {
                                 <FormControl autoFocus type="text" placeholder="john.doe@rpi.edu" />
                             </Form.Group>
                         </Form>
-                        <Link to="/login">
+                        <Link to="/forgotPasswordResult">
                             <Button variant="success" type="submit" className="submitButton" block>Submit</Button>
                         </Link>
                         <Link to="/login">

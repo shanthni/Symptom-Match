@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css"
 
-import { Container, Button } from "react-bootstrap"
+import { Container } from "react-bootstrap"
 
 import word_logo from '../../components/logos/word_logo.png';
 import doctors from '../../components/assets/happy_doctors_about_page.png';

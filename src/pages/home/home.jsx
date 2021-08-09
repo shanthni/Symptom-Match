@@ -34,7 +34,7 @@ function homePage (props) {
                                 that Appendicitis was a thing, and I could’ve easily died leaving that untreated. I’m grateful for Symptom Match & would totally
                                 recommend it to any of my friends.”
                                 </div>
-                                
+
                                 <div className= 'userReviewsSectionCreditPhoto'>
                                     <img src= {draymond_smith_image} alt= "draymond_smith_image" className='profileImage' />
                                 </div>
@@ -88,7 +88,9 @@ function homePage (props) {
                                 <div className= 'writeReviewHeader'>
                                     Got anything we should know about?
                                 </div>
-                            <Button variant="primary" type="submit" className="writeReviewButton" block>Write a review</Button>
+                                <Link to="/settings">
+                                    <Button variant="primary" type="submit" className="writeReviewButton" block>Write a review</Button>
+                                </Link>
                             </div>
                         </div>
                     </div>

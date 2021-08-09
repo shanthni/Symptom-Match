@@ -1,0 +1,114 @@
+.beginDiagnosisButton{
+    width: 800px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.bigNameHeader{
+    font-size: 150px;
+    font-weight: 500;
+}
+
+.dashboardCSS{
+
+}
+
+.dashboardLogoutButton{
+    font-size: 30px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 80vh;
+}
+
+.dashboardMenuButtons{
+    font-size: 30px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 80vh;
+}
+
+.diagnosesButtons{
+    font-size: 40px;
+    margin-top: 50px;
+    /* margin-right: 175px; */
+    text-align: left;
+    color: whitesmoke;
+    width: 70%;
+    align-self: left;
+}
+
+.diagnosesColumns {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.diagnosesContents{
+
+}
+
+.diagnosesDiscardButtons{
+    width: 75px;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.diagnosesEditButtons{
+    width: 75px;
+    margin-top: 45px;
+    margin-left: 15px;
+}
+
+.diagnosesShareButtons{
+    width: 75px;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.headerWrapper{
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.leftColumn{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.manageDiagnosesHeader{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.or_divider{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.smallHeyHeader{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+/* GENERAL STYLING BELOW */
+
+.standardColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.standardRow {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}

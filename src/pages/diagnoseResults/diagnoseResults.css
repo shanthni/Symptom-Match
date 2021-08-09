@@ -1,0 +1,78 @@
+.bigResultHeader{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+.colorColumn{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 0;
+}
+
+.diagnosisLogoutButton{
+    width: 700px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.diagnosisOptionButtons{
+    width: 300px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.firstLikelihood{
+    color: #5797D1;
+    font-size: 150px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.palleteImage{
+    width: 150px;
+    margin-top: 325px;
+}
+
+.piechartImage{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.resultsContainer{
+    font-size: 65px;
+    font-weight: 400;
+    margin-top: 340px;
+    text-align: left;
+}
+
+.secondLikelihood{
+    color: #D2B664;
+    margin-top: 30px;
+}
+
+.thirdLikelihood{
+    color: #7564B5;
+    margin-top: 25px;
+}
+
+/* GENERAL STYLING BELOW */
+
+.standardColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.standardRow {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
