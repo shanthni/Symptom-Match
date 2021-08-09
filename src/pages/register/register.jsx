@@ -1,9 +1,10 @@
 import React from "react";
 import "./register.css"
-import word_logo from '../../components/logos/word_logo.png';
 
 import { Container, Form, Button, Card } from "react-bootstrap"
 import { Link } from "react-router-dom";
+
+import doctorImage from '../../components/assets/register_doctor.png';
 
 const registerPage = () => {
     return(
@@ -12,17 +13,7 @@ const registerPage = () => {
                 <center>
                     <div className='standardRow'>
                         <div className='standardColumn'>
-                            <div className= "registerDescriptionSection">
-                                <img src= {word_logo} alt= "SurveyAI_Logo" className= 'registerDescriptionLogo' />
-                                <div className= "registerDescriptionHeader">
-                                    What is Survey <span className= "registerDescriptionHeaderAI">AI </span> ?
-                                </div>
-                                <div className= 'registerDescriptionText'>
-
-                                </div>
-                                SurveyAI is a platform where -----------------------------------------------
-                                { /* This description is to be filled in. */ }
-                            </div>
+                            <img src= {doctorImage} alt= "SurveyAI_Logo" className= 'registerDoctorImage' />
                         </div>
                         <div class='standardColumn'>
 
@@ -34,26 +25,27 @@ const registerPage = () => {
                                     <Form className="registerCardFields">
                                         <Form.Group>
                                             <Form.Label>Username</Form.Label>
-                                            <Form.Control type="text" placeholder="Your username"/>
+                                            <Form.Control type="text" placeholder="jdoe25"/>
                                         </Form.Group>
                                         <Form.Group>
                                             <Form.Label>Email</Form.Label>
-                                            <Form.Control type="text" placeholder="Your email" />
+                                            <Form.Control type="text" placeholder="john.doe@rpi.edu" />
                                         </Form.Group>
                                         <Form.Group>
                                             <Form.Label>Password</Form.Label>
-                                            <Form.Control type="password" placeholder="Your password" />
+                                            <Form.Control type="password" placeholder="••••••••••••••••" />
                                         </Form.Group>
                                         <Form.Group>
                                             <Form.Label>Confirm Password</Form.Label>
-                                            <Form.Control type="password" placeholder="Confirm your password" />
+                                            <Form.Control type="password" placeholder="••••••••••••••••" />
                                         </Form.Group>
                                         <Form.Group>
                                             <Form.Check type="checkbox" label="I have read and agree to the Terms and Conditions" />
                                         </Form.Group>
-                                        {/* <Button variant="success" type="submit" block onClick={notify}>Register</Button> */}
                                     </Form>
-                                        <Button variant="success" type="submit" className="registerButton" block>Register</Button>
+                                        <Link to="/profile">
+                                            <Button variant="success" type="submit" className="registerButton" block>Register</Button>
+                                        </Link>
 
                                 </center>
                             </Card>

@@ -1,20 +1,20 @@
 .registerPageCSS {
-    background-color: #ecf0f5;
-    height: 15vh;
+    background-color: white;
     width: 100%;
 }
 
 .registerButton{
     width: 300px;
     margin-top: 75px;
+    margin-left: 10px;
     font-size: 25px;
 }
 
 .registerCard {
     height: 500px;
     width: 50%;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 150px;
+    margin-left: 200px;
 }
 
 .registerCardFields {
@@ -50,6 +50,11 @@
     margin-top: 10px;
 }
 
+.registerDoctorImage{
+    margin-top: 5px;
+    width: 1100px;
+}
+
 .registerleftVerticalBar{
     width: 40px;
     margin-left: 0px;
@@ -60,7 +65,7 @@
     height: 70px;
     width: 50%;
     margin-top: 135px;
-    margin-left: 100px;
+    margin-left: 200px;
     text-align: center;
 }
 
@@ -68,6 +73,9 @@
     margin-top: 15px;
     font-size: 25px;
 }
+
+
+/* GENERAL STYLING BELOW */
 
 .standardColumn {
     display: flex;

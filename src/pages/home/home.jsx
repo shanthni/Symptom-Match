@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css"
 
+import { Link } from "react-router-dom";
 import { Container, Button } from "react-bootstrap"
 
 import word_logo from '../../components/logos/word_logo.png';
@@ -33,8 +34,10 @@ function homePage (props) {
                                 that Appendicitis was a thing, and I could’ve easily died leaving that untreated. I’m grateful for Symptom Match & would totally
                                 recommend it to any of my friends.”
                                 </div>
-
-                                <img src= {draymond_smith_image} alt= "draymond_smith_image" className= 'userReviewsSectionCreditPhoto' />
+                                
+                                <div className= 'userReviewsSectionCreditPhoto'>
+                                    <img src= {draymond_smith_image} alt= "draymond_smith_image" className='profileImage' />
+                                </div>
 
                                 <div className= 'userReviewsSectionCreditName'>
                                     - Draymond Smith
@@ -52,7 +55,9 @@ function homePage (props) {
 
                                 </div>
 
-                                <img src= {kaleb_bowlin_image} alt= "draymond_smith_image" className= 'userReviewsSectionCreditPhoto' />
+                                <div className= 'userReviewsSectionCreditPhoto'>
+                                    <img src= {kaleb_bowlin_image} alt= "draymond_smith_image" className='profileImage' />
+                                </div>
 
                                 <div className= 'userReviewsSectionCreditName'>
                                     - Kaleb Bowlin
@@ -66,7 +71,7 @@ function homePage (props) {
                             <div className= 'rightColumnConstraint'>
                                 <img src= {star_rating} alt= "Sympmatch_Rating_Image" className= 'starRatingImage' />
                                 <div className= 'ratingDescription'>
-                                    Recommended by 8 out of every 10 doctors
+                                    Recommended by 9 out of every 10 doctors
                                 </div>
                             </div>
 
@@ -74,7 +79,9 @@ function homePage (props) {
                                 <div className= 'diagnoseSuggestionHeader'>
                                     Think you’re coming down with something?
                                 </div>
-                            <Button variant="primary" type="submit" className="diagnoseSuggestionButton" block>Start a self-diagnosis</Button>
+                                <Link to="/diagnose">
+                                    <Button variant="primary" type="submit" className="diagnoseSuggestionButton" block>Start a self-diagnosis</Button>
+                                </Link>
                             </div>
 
                             <div className= 'writeReviewArea'>

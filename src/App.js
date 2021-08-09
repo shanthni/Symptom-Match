@@ -11,7 +11,7 @@ import BaseRouter from "./routes"
 class App extends Component {
   render() {
     return ( 
-      <div style={{ backgroundColor: "#C7FFFF"}}>
+      <div style={{ backgroundColor: "white"}}>
         <Router>
             <NavBar>
               <BaseRouter/>

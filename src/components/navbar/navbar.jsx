@@ -16,8 +16,8 @@ class NavBar extends React.Component {
                 <Navbar bg="light" className= "navbarCSS">
 
                 <Link to="/">
-                    <img src= {letters_logo} alt= "SurveyAI_Letters_Logo" className= 'navbarHomeLettersLogo' />
-                    <img src= {word_logo} alt= "SurveyAI_Word_Logo" className= 'navbarHomeWordLogo' />
+                    <img src= {letters_logo} alt= "SymptomMatch_Letters_Logo" className= 'navbarHomeLettersLogo' />
+                    <img src= {word_logo} alt= "SymptomMatch_Word_Logo" className= 'navbarHomeWordLogo' />
                 </Link>
                 <div className= 'navbarOptions'>
                     <Link to="/">
@@ -40,7 +40,7 @@ class NavBar extends React.Component {
                     <Divider light orientation="vertical" flexItem /> {/* this won't appear for some reason */}
                 </Nav>
 
-                <Link to="/profile" className= 'navbarProfileButton'>
+                <Link to="/login" className= 'navbarProfileButton'>
                     <i className="fas fa-user-circle"> </i>
                     <span> Profile</span>
                 </Link>

@@ -1,0 +1,31 @@
+.contactGitLogo{
+    width: 150px;
+    margin-right: 35px;
+}
+
+.contactMailLogo{
+    width: 150px;
+    margin-left: 35px;
+}
+
+.contactPageBigHeader{
+    font-size: 75px;
+    font-weight: 500;
+    margin-top: 250px;
+    color: dimgray;
+}
+
+.contactPageBigHeaderLove{
+    color: magenta;
+}
+
+.imageContainer{
+    margin-top: 100px;
+}
+
+.smallContactDescription{
+    font-size: 35px;
+    font-weight: 400;
+    width: 900px;
+    margin-top: 100px;
+}

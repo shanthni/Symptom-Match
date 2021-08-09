@@ -1,0 +1,94 @@
+.diagnoseBigHeader{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-left: 125px;
+}
+
+.diagnoseCancelButton{
+    width: 300px;
+    height: 75px;
+    margin-top: 400px;
+    font-size: 25px;
+    margin-right: 500px;
+}
+
+.diagnoseContinueButton{
+    width: 300px;
+    height: 75px;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-right: 500px;
+}
+
+.diagnoseDisabledContinueButton{
+    width: 300px;
+    height: 75px;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+.diagnoseHeaderContainer{
+    text-align: left;
+}
+
+.diagnoseSmallHeader{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 125px;
+}
+
+.headerText{
+    font-size: 50px;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+
+
+.diagnoseCSS{
+
+}
+
+.symptomCategoryLetter{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 125px;
+
+}
+
+.symptomCheckbox{
+    margin-right: 10px;
+    size: 200%; /* This doesnt do anything, I wish it did... */
+}
+
+.symptomsList{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    
+}
+
+.symptomListContainer{
+    margin-left: 85px;
+}
+
+/* GENERAL STYLING BELOW */
+
+.standardColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.standardRow {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
