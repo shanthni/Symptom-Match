@@ -72,10 +72,14 @@
 }
 
 .userReviewsSectionCreditPhoto{
-    width: 150px;
-    padding-left: 90px;
-    align-self: right;
-    
+    text-align: right;
+    padding-left: 10px;
+    margin-bottom: 10px;  
+}
+
+.profileImage{
+    width:130px;
+    border-radius:50px;
 }
 
 .userReviewsSectionCreditSchool{

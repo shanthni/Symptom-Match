@@ -35,7 +35,9 @@ function homePage (props) {
                                 recommend it to any of my friends.”
                                 </div>
 
-                                <img src= {draymond_smith_image} alt= "draymond_smith_image" className= 'userReviewsSectionCreditPhoto' />
+                                <div className= 'userReviewsSectionCreditPhoto'>
+                                    <img src= {draymond_smith_image} alt= "draymond_smith_image" className='profileImage' />
+                                </div>
 
                                 <div className= 'userReviewsSectionCreditName'>
                                     - Draymond Smith
@@ -53,7 +55,10 @@ function homePage (props) {
 
                                 </div>
 
-                                <img src= {kaleb_bowlin_image} alt= "draymond_smith_image" className= 'userReviewsSectionCreditPhoto' />
+                                <div className= 'userReviewsSectionCreditPhoto'>
+                                    <img src= {kaleb_bowlin_image} alt= "draymond_smith_image" className='profileImage' />
+                                </div>
+
 
                                 <div className= 'userReviewsSectionCreditName'>
                                     - Kaleb Bowlin
