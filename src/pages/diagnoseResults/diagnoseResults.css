@@ -1,18 +1,23 @@
 .bigResultHeader{
+    /* "Results of your Diagnosis" header */
     font-size: 70px;
     font-weight: 700;
     margin-top: 100px;
     text-decoration: underline;
 }
 
+/*
+ << REMOVED FOR FINAL PRESENTATION >>
 .colorColumn{
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 0;
 }
+*/
 
 .diagnosisLogoutButton{
+    /* Logout button on the bottom of the diagnosis page */
     width: 700px;
     margin-top: 50px;
     font-size: 30px;
@@ -20,18 +25,22 @@
 }
 
 .diagnosisOptionButtons{
+    /* "Start Another Diagnosis" button on the Diagnosis page */
     width: 300px;
     margin-top: 50px;
     font-size: 25px;
 }
 
 .firstLikelihood{
+    /* CSS for the text containing the first diagnosis result */
     color: #5797D1;
     font-size: 150px;
     margin-top: 150px;
     margin-bottom: 150px;
 }
 
+/*
+ << REMOVED FOR FINAL PRESENTATION >>
 .palleteImage{
     width: 150px;
     margin-top: 325px;
@@ -59,10 +68,12 @@
     color: #7564B5;
     margin-top: 25px;
 }
+*/
 
 /* GENERAL STYLING BELOW */
 
 .standardColumn {
+    /* Generic "Column" Container: Used across MULTIPLE pages' CSS */
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -70,6 +81,7 @@
 }
 
 .standardRow {
+    /* Generic "Row" Container: Used across MULTIPLE pages' CSS */
     margin-left: 0px;
     display: flex;
     flex-direction: row;

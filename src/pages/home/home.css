@@ -1,29 +1,29 @@
-.homeCSS{
-
-}
-
 .diagnoseSuggestionArea{
+    /* Container for diagnose button in the bottom right of the home page */
     margin-top: 225px;
 }
 
 .diagnoseSuggestionButton{
+    /* Button routing to Diagnose Page */
     width: 300px;
     margin-top: 40px;
     font-size: 25px;
 }
 
 .diagnoseSuggestionHeader{
+    /* "Think you’re coming down with something?" Diagnose header */
     font-weight: 700;
     font-size: 30px;
 }
 
 .homepageWordLogo{
+    /* Symptom Match logo on the top left of the homepage */
     width: 850px;
     align-self: center;
-    /* margin-right: 340px; */
 }
 
 .homepageWelcomeLeadingText{
+    /* "Welcome to" header text */
     margin-top: 75px;
     margin-right: 720px;
     font-weight: 400;
@@ -31,32 +31,38 @@
 }
 
 .homepageWelcomeTrailingText{
+    /* "The last self-diagnosis platform you'll ever need!" text */
     font-weight: 400;
     font-size: 25px;
     padding-left: 325px;
 }
 
 .ratingDescription{
+    /* "Recommended by 9 out of every 10 doctors" text */
     margin-top: 50px;
     font-weight: 700;
     font-size: 30px;
 }
 
 .rightColumnConstraint{
+    /* Align right column items in order to keep things from looking weird */
     align-content: center;
 }
 
 .starRatingImage{
+    /* 9/10 star-image */
     width: 900px;
     margin-top: 100px;
 }
 
 .userReviewsSection{
+    /* User Reviews container */
     margin-left: 125px;
     margin-right: 175px;
 }
 
 .userReviewsSectionBody{
+    /* User Reviews Quotes */
     font-weight: 300;
     font-size: 30px;
     text-align: justify;
@@ -65,6 +71,7 @@
 }
 
 .userReviewsSectionCreditName{
+    /* User Reviews quote name credit text */
     align-content: right;
     text-align: right;
     font-weight: 500;
@@ -72,22 +79,26 @@
 }
 
 .userReviewsSectionCreditPhoto{
+    /* User review photo container */
     text-align: right;
     padding-left: 10px;
     margin-bottom: 10px;  
 }
 
 .profileImage{
+    /* Photo of user who gave review */
     width:130px;
-    border-radius:50px;
+    border-radius:25px;
 }
 
 .userReviewsSectionCreditSchool{
+    /* Current school user being reviewed attends */
     align-content: right;
     text-align: right;
 }
 
 .userReviewsSectionHeader{
+    /* "What Users Have Said" text */
     margin-top: 100px;
     margin-right: 185px;
     font-weight: 800;
@@ -96,16 +107,19 @@
 }
 
 .writeReviewArea{
+    /* Container for the review button on the bottom right of the homepage */
     margin-top: 75px;
 }
 
 .writeReviewButton{
+    /* Button routing to the "Not yet implemented" page */
     width: 300px;
     margin-top: 40px;
     font-size: 25px;
 }
 
 .writeReviewHeader{
+    /* "Got anything we should know about?" text */
     font-weight: 700;
     font-size: 30px;
 }
@@ -113,6 +127,7 @@
 /* GENERAL STYLING BELOW */
 
 .standardColumn {
+    /* Generic "Column" Container: Used across MULTIPLE pages' CSS */
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -120,6 +135,7 @@
 }
 
 .standardRow {
+    /* Generic "Row" Container: Used across MULTIPLE pages' CSS */
     margin-left: 0px;
     display: flex;
     flex-direction: row;
@@ -128,13 +144,16 @@
 }
 
 .underline{
+    /* Generic "Underline" class */
     text-decoration: underline;
 }
 
+/*
+ << Doesn't seem to work correctly >>
 .verticalSpacer{
     margin-top: 50px;
     border-bottom-color: black;
     border-bottom-width: 5px;
     align-self: stretch;
-    /* The line does not show up. */
 }
+*/

@@ -16,7 +16,11 @@ import forgotPasswordResultPage from "./pages/forgotPasswordResult/forgotPasswor
 
 import { Route } from "react-router-dom";
 
-
+/* This is the "Hub" for the JS router. This is what the react-router uses
+ * in order to navigate around the multi-page web application. All different
+ * Page identifiers are listed below and used to navigate to their associated
+ * in-app pages.
+ */
 const BaseRouter = () => (
     <div>
         <Route exact path="/" render={(props) => <HomePage {...props}/>}/>
@@ -32,7 +36,6 @@ const BaseRouter = () => (
 
         <Route exact path="/forgotPassword" component={forgotPasswordPage}/>
         <Route exact path="/forgotPasswordResult" component={forgotPasswordResultPage}/>
-
     </div>
 )
 

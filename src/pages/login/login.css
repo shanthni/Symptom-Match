@@ -1,15 +1,18 @@
 .loginButton{
+    /* Button that submits login fields for auth. */
     width: 300px;
     margin-top: 50px;
     font-size: 25px;
 }
 
 .loginPageCSS {
+    /* Assert background color and dimension(s) */
     background-color: white;
     width: 100%;
 }
 
 .loginCard {
+    /* Card housing Login header and Login fields */
     height: 500px;
     width: 50%;
     margin-top: 175px;
@@ -17,6 +20,7 @@
 }
 
 .loginCardFields {
+    /* Container housing all of the Login fields */
     width: 80%;
     margin-top: 30px;
     font-weight: 600;
@@ -25,10 +29,12 @@
 }
 
 .loginDoctorsImage{
+    /* Doctors image in the right column of the login page */
     width: 1050px;
 }
 
 .loginPageForgotPasswordButton{
+    /* Forgot password button between Login and Sign-Up card */
     font-weight: 400;
     font-size: 25px;
     margin-top: 20px;
@@ -36,28 +42,30 @@
 }
 
 .loginPageLogo{
+    /* Symptom Match logo on the top of the login page */
     width: 750px;
     margin-top: 100px;
 }
 
 .loginPageRegisterCard{
+    /* Sign-Up card */
     height: 75px;
     width: 50%;
-    margin-top: 100px;
-    margin-left: 250px;
-
     margin-top: 30px;
+    margin-left: 250px;
     font-weight: 600;
     font-size: 25px;
     text-align: left;
 }
 
 .loginPageRegisterCardText{
+    /* Text for Sign-Up card on register page */
     margin-top: 20px;
     font-size: 22px;
 }
 
 .loginWord{
+    /* Big bold "LOGIN" word */
     font-size: 70px;
     font-weight: 700;
 }
@@ -65,6 +73,7 @@
 /* GENERAL STYLING BELOW */
 
 .standardColumn {
+    /* Generic "Column" Container: Used across MULTIPLE pages' CSS */
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -72,6 +81,7 @@
 }
 
 .standardRow {
+    /* Generic "Row" Container: Used across MULTIPLE pages' CSS */
     margin-left: 0px;
     display: flex;
     flex-direction: row;

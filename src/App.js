@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.css';
 
-// NavBar
+// NavBar Component: Static to the top of the screen //
 import NavBar from "./components/navbar/navbar";
 
-// router
+// Router Component: Allows user to navigate multi-page layout //
 import BaseRouter from "./routes"
 
-class App extends Component {
+class App extends Component { // Start build web-Application //
   render() {
     return ( 
       <div style={{ backgroundColor: "white"}}>

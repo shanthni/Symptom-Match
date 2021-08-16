@@ -1,28 +1,34 @@
 .aboutPageCSS{
+    /* Full-page div container for the About Page */
     background-color: white;
 }
 
 .contributor{
+    /* Contributors List: Contributor string */
     font-size: 25px;
     font-weight: 300;
 }
 
 .contributorsDiv{
+    /*Contributors List Container  */
     text-align: right;
     margin-right: 180px;
     margin-top: 50px;
 }
 
 .contributorsHeader{
+    /* Contributors List Header */
     font-size: 30px;
     font-weight: 300;
 }
 
 .descriptionContents{
+    /* Paragraphs-Description Container */
     margin-top: 40px;
 }
 
 .descriptionParagraph{
+    /* Description: Paragraph String component */
     font-size: 40px;
     font-weight: 300;
     text-indent: 50px;
@@ -30,25 +36,30 @@
 }
 
 .doctorsPhoto{
+    /* Doctors image */
     height: 800px;
 
 }
 .doctorsPhotoDiv{
+    /* Doctors image container */
     margin-top: 100px;
 }
 
 .headerContents{
+    /* Page Big header Container */
     margin-top: 150px;
     align-items: center;
     text-align: center;
 }
 
 .headerLogo{
+    /* Page Big Header Logo */
     width: 700px;
     margin-top: -20px;
 }
 
 .headerText{
+    /* Page Big Header: Large Text */
     font-size: 50px;
     font-weight: 400;
     margin-right: 20px;
@@ -56,17 +67,20 @@
 }
 
 .headerQuestionMark{
+    /* Page Big Header: Question Mark */
     font-size: 90px;
     font-weight: 700;
 }
 
 .leftColumnConstraint{
+    /* Page left column constraint- to keep the left column from looking weird */
     align-items: left;
     text-align: left;
     margin-left: 30px;
 }
 
 .rightColumnConstraint{
+    /* Page right column constraint- to keep the right column from looking weird */
     align-items: center;
 }
 
@@ -74,6 +88,7 @@
 /* GENERAL STYLING BELOW */
 
 .standardColumn {
+    /* Generic "Column" Container: Used across MULTIPLE pages' CSS */
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -81,6 +96,7 @@
 }
 
 .standardRow {
+    /* Generic "Row" Container: Used across MULTIPLE pages' CSS */
     margin-left: 0px;
     display: flex;
     flex-direction: row;

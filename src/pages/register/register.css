@@ -1,9 +1,11 @@
 .registerPageCSS {
+    /* Assert background color and dimension(s) */
     background-color: white;
     width: 100%;
 }
 
 .registerButton{
+    /* Button that submits register fields for storage */
     width: 300px;
     margin-top: 75px;
     margin-left: 10px;
@@ -11,6 +13,7 @@
 }
 
 .registerCard {
+    /* Card housing Register header and Register fields */
     height: 500px;
     width: 50%;
     margin-top: 150px;
@@ -18,50 +21,25 @@
 }
 
 .registerCardFields {
+    /* Container housing all of the Register fields */
     width: 80%;
     margin-top: 10px;
 }
 
 .registerCardHeader{
+    /* "REGISTER" header */
     font-size: 60px;
     font-weight: 500;
 }
 
-.registerDescriptionHeader{
-    font-size: 60px;
-    font-weight: 400;
-    margin-top: 125px;
-}
-
-.registerDescriptionHeaderAI{
-    color:lightgreen
-}
-
-.registerDescriptionLogo{
-    width: 800px;
-}
-
-.registerDescriptionSection{
-    margin-top: 100px;
-    padding-left: 100px;
-}
-
-.registerDescriptionText{
-    margin-top: 10px;
-}
-
 .registerDoctorImage{
+    /* Image of doctor on the left of the Register page */
     margin-top: 5px;
     width: 1100px;
 }
 
-.registerleftVerticalBar{
-    width: 40px;
-    margin-left: 0px;
-    background-color: blue;
-}
-
 .registerPageLoginCard{
+    /* Login card */
     height: 70px;
     width: 50%;
     margin-top: 135px;
@@ -70,6 +48,7 @@
 }
 
 .registerPageLoginCardText{
+    /* Text for Login card on Register page */
     margin-top: 15px;
     font-size: 25px;
 }
@@ -78,6 +57,7 @@
 /* GENERAL STYLING BELOW */
 
 .standardColumn {
+    /* Generic "Column" Container: Used across MULTIPLE pages' CSS */
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -85,6 +65,7 @@
 }
 
 .standardRow {
+    /* Generic "Row" Container: Used across MULTIPLE pages' CSS */
     margin-left: 0px;
     display: flex;
     flex-direction: row;

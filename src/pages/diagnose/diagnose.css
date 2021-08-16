@@ -1,4 +1,5 @@
 .diagnoseBigHeader{
+    /* "Let's get started" on the Diagnose page */
     font-size: 50px;
     font-weight: 600;
     margin-top: 100px;
@@ -6,6 +7,7 @@
 }
 
 .diagnoseCancelButton{
+    /* Cancel Button on the right on the Diagnose Page */
     width: 300px;
     height: 75px;
     margin-top: 400px;
@@ -14,6 +16,7 @@
 }
 
 .diagnoseContinueButton{
+    /* Continue Button on the right of the Diagnose Page */
     width: 300px;
     height: 75px;
     margin-top: 50px;
@@ -21,38 +24,21 @@
     margin-right: 500px;
 }
 
-.diagnoseDisabledContinueButton{
-    width: 300px;
-    height: 75px;
-    margin-top: 50px;
-    font-size: 25px;
-    margin-right: 50px;
-}
-
 .diagnoseHeaderContainer{
+    /* Container for the Header on the Diagnose Page */
     text-align: left;
 }
 
 .diagnoseSmallHeader{
+    /* "Select all symptoms you’re experiencing" on the Diagnose Page */
     font-size: 40px;
     font-weight: 400;
     margin-top: 25px;
     margin-left: 125px;
 }
 
-.headerText{
-    font-size: 50px;
-    font-weight: 400;
-    margin-right: 20px;
-    margin-top: 70px;
-}
-
-
-.diagnoseCSS{
-
-}
-
 .symptomCategoryLetter{
+    /* Letters that signify symptom category sections */
     text-align: left;
     font-size: 50px;
     font-weight: 600;
@@ -61,11 +47,13 @@
 }
 
 .symptomCheckbox{
+    /* Checkbox(es) that users can select next to associated symptoms */
     margin-right: 10px;
     size: 200%; /* This doesnt do anything, I wish it did... */
 }
 
 .symptomsList{
+    /* List of symptoms that are part of a section */
     font-size: 30px;
     font-weight: 500;
     text-align: left;
@@ -73,12 +61,14 @@
 }
 
 .symptomListContainer{
+    /* Container that holds a symptom list-section */
     margin-left: 85px;
 }
 
 /* GENERAL STYLING BELOW */
 
 .standardColumn {
+    /* Generic "Column" Container: Used across MULTIPLE pages' CSS */
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -86,6 +76,7 @@
 }
 
 .standardRow {
+    /* Generic "Row" Container: Used across MULTIPLE pages' CSS */
     margin-left: 0px;
     display: flex;
     flex-direction: row;
